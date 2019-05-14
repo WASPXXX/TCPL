@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void squeeze_new(char s[], int c); //从字符串中删除字符
+void squeeze_new(char s[], int c); //从字符串中删除匹配字符
 void squeeze_ext(char s1[], char s2[]); //删除s1中与s2中所有匹配字符
 int any_new(char s1[], char s2[]); //返回s2中任一字符在s1第一次出现的位置，否则返回-1
 
