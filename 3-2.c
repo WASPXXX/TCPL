@@ -2,7 +2,7 @@
 #define MAXLINE 1000
 int getline_new(char s[], int maxline); 
 void escape_new(char s[], char t[]); /*字符串t复制到字符串s中，并将换行符、制表符等不可见字符转换为可见的转义字符*/
-void unescape_new(char s[], char t[]); /*相反功能*/
+void unescape_new(char s[], char t[]); /*相反*/
 
 int main() {
 	char line[MAXLINE], cline[MAXLINE];
