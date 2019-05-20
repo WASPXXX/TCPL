@@ -7,9 +7,9 @@ void unescape_new(char s[], char t[]); /*相反*/
 int main() {
     char line[MAXLINE], cline[MAXLINE];
     while (getline_new(line, MAXLINE) > 0) {
-        printf("input:\t %s\n", line);
+        printf("input:\t %s", line);
         unescape_new(cline, line);
-        printf("output:\t %s\n", cline);
+        printf("output:\t %s", cline);
         printf("dd\n");
     }
 }
