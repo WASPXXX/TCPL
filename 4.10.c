@@ -3,7 +3,7 @@
 
 void printd_w(int n); //十进制数 → 字符串
 void reverse_w(char s[]); //字符串倒置
-void reverser_w(char s[], int i, int len); //递归实现
+void reverser_w(char s[], int i, int len); //其递归实现
 
 int main() {
     int i;
